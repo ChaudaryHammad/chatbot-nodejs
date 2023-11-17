@@ -1,108 +1,2737 @@
 {
-  "intents": [
+  "processed_data": [
     {
+      "tokens": ["hi"],
       "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
+        "Hello!",
+        "Good to see you again!",
         "Hi there, how can I help?"
       ]
     },
     {
+      "tokens": [],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["anyone"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["hello"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["good", "day"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["ya"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["heyy"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["whatsup"],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "greeting",
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tokens": ["cya"],
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "tokens": ["see"],
+      "tag": "goodbye",
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tokens": ["bye", "bye"],
+      "tag": "goodbye",
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
+      "tokens": ["see", "later"],
+      "tag": "goodbye",
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "hammad",
-      "patterns": [
-        "who is hammad",
-        "where is hammad"
-        
-      ],
+      "tokens": ["goodbye"],
+      "tag": "goodbye",
       "responses": [
-        "Hammad laiba ka ashiq ha",
-        "burewala"
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
+      "tokens": ["leaving"],
+      "tag": "goodbye",
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
       ]
     },
     {
-      "tag": "owner",
-      "patterns": [
-        "Who is your owner",
-        "Who made you"
-       
-      ],
+      "tokens": ["bye"],
+      "tag": "goodbye",
       "responses": [
-        "Autoessentials team",
-        "My owners are Autoessentials team"
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["good", "day"],
+      "tag": "goodbye",
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["talk", "later"],
+      "tag": "goodbye",
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["ttyl"],
+      "tag": "goodbye",
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["got", "go"],
+      "tag": "goodbye",
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["gtg"],
+      "tag": "goodbye",
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "tokens": ["name", "developer"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["name", "creator"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["name", "developer"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["name", "creator"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["created"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["developer"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["creator"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["developer"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["developer"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["made"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["made"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["created"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["create"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["creator"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["made"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["designed"],
+      "tag": "creator",
+      "responses": ["Auto-Essential Team"]
+    },
+    {
+      "tokens": ["name"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["name"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["name"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["called"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["name"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["call"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["whats", "name"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["chatting"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["taking"],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "name",
+      "responses": [
+        "You can call me Auto-Essential.",
+        "I'm Auto-Essential",
+        "I am a Auto-Essential Chatbot.",
+        "I am your Auto-Essential helper"
+      ]
+    },
+    {
+      "tokens": ["timing", "college"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "timing"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["working", "day"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["guy", "open"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["hour"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["hour", "operation"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "open"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "timing"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "timing"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "open", "saturday"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["tell", "something", "college", "timing"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "hour"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["come", "college"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["attend", "college"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "time"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["college", "timing"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["timing", "college"],
+      "tag": "hours",
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tokens": ["info"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact", "info"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact", "number"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["team", "number"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact", "number"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["call"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["team", "phone"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["contact"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["get", "phone", "number"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["call"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["phone", "number"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["phone"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["call"],
+      "tag": "number",
+      "responses": ["You can contact at: +92 123 4567890"]
+    },
+    {
+      "tokens": ["list", "product"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["list", "product", "offered"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["list", "product", "offered"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "offered", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "offered"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "offered", "website", "name"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "offer"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["branch"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "available", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["branch", "available", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["branch", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["product", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["branch", "available", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["tell", "product", "available", "website"],
+      "tag": "course",
+      "responses": [
+        "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+      ]
+    },
+    {
+      "tokens": ["information", "fee"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["information", "fee"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["tell", "fee"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "fee"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fee", "per", "semester"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fee", "semester"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "year"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fee"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["much", "fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "first", "year"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["tell", "something", "fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "hostel"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["much", "fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "fund"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "ac", "room"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "room"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "ac", "room", "girl"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "room", "girl"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "ac", "room", "boy"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["fund", "room", "boy"],
+      "tag": "funds",
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "located"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "located"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "located"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["address", "college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["reach", "college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "location"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "address"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["wheres", "college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["reach", "college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["whats", "college", "address"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["address", "college"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["address"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["location"],
+      "tag": "location",
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "facility"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "servive"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "location"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "address"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "facility"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "fee"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["doe", "college", "provide", "hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["guy", "hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "capacity"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "fee"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["get", "hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "address"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["far", "hostel", "college"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel", "college", "distance"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["big", "hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["distance", "college", "hostel"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["distance", "hostel", "college"],
+      "tag": "hostel",
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event", "organised"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["list", "event"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["list", "event", "organised", "college"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["list", "event", "conducted", "college"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event", "conducted", "college"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event", "held", "college"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["function"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["tell", "event"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["event"],
+      "tag": "event",
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "bring"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "needed", "admision"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "needed", "time", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "needed", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "required", "admision"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "required", "time", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "required", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "required", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "bring", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "need"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "need", "admission"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["document", "needed"],
+      "tag": "document",
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR Website WEBSITE\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["size", "campus"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["building", "size"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["many", "floor", "doe", "college"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["floor", "college"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["floor", "college"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": [
+        "tall",
+        "uni",
+        "college",
+        "engineering",
+        "college",
+        "building"
+      ],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["floor"],
+      "tag": "floors",
+      "responses": ["My College has total 2 floors "]
+    },
+    {
+      "tokens": ["syllabus"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["information", "technology", "syllabus"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["syllabus"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["timetable"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["syllabus"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["syllabus"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["next", "lecture"],
+      "tag": "syllabus",
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "tokens": ["library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library", "facility"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library", "facility"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["doe", "college", "library", "facility"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["get", "book"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["book", "facility"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library", "information"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["library", "book", "information"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["tell", "library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["many", "library"],
+      "tag": "library",
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["college", "infrastructure"],
+      "tag": "infrastructure",
+      "responses": [
+        "Our Website has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ]
+    },
+    {
+      "tokens": ["infrastructure"],
+      "tag": "infrastructure",
+      "responses": [
+        "Our Website has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ]
+    },
+    {
+      "tokens": ["college", "infrastructure"],
+      "tag": "infrastructure",
+      "responses": [
+        "Our Website has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ]
+    },
+    {
+      "tokens": ["food", "facility"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["canteen", "facility"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["canteen", "facility"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["canteen"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["cafetaria", "college"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["doe", "college", "canteen"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["canteen"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["cafetaria"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["canteen"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["food"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["cafetaria"],
+      "tag": "canteen",
+      "responses": ["Our Website has canteen with variety of food available"]
+    },
+    {
+      "tokens": ["food", "menu"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["food", "canteen"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["whats", "menu"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["available", "college", "canteen"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["food", "get", "college", "canteen"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["food", "variety"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["eat"],
+      "tag": "menu",
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ]
+    },
+    {
+      "tokens": ["college", "placement"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["company", "visit", "college"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["average", "package"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["company", "visit"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["package"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["placement"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["placement"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["recruitment"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["company"],
+      "tag": "placement",
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR Website WEBSITE IF THEY HAVE\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["hod"],
+      "tag": "ithod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (Place name)"
+      ]
+    },
+    {
+      "tokens": ["hod"],
+      "tag": "ithod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (Place name)"
+      ]
+    },
+    {
+      "tokens": ["hod"],
+      "tag": "ithod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (Place name)"
+      ]
+    },
+    {
+      "tokens": ["name", "hod"],
+      "tag": "ithod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (Place name)"
+      ]
+    },
+    {
+      "tokens": ["computer", "hod"],
+      "tag": "computerhod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+      ]
+    },
+    {
+      "tokens": ["computer", "hod"],
+      "tag": "computerhod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+      ]
+    },
+    {
+      "tokens": ["computer", "hod"],
+      "tag": "computerhod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+      ]
+    },
+    {
+      "tokens": ["name", "computer", "hod"],
+      "tag": "computerhod",
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+      ]
+    },
+    {
+      "tokens": ["extc", "hod"],
+      "tag": "extchod",
+      "responses": [
+        "Different school wise hod are different.So be more clear with your school or department"
+      ]
+    },
+    {
+      "tokens": ["extc", "hod"],
+      "tag": "extchod",
+      "responses": [
+        "Different school wise hod are different.So be more clear with your school or department"
+      ]
+    },
+    {
+      "tokens": ["extc", "hod"],
+      "tag": "extchod",
+      "responses": [
+        "Different school wise hod are different.So be more clear with your school or department"
+      ]
+    },
+    {
+      "tokens": ["name", "extc", "hod"],
+      "tag": "extchod",
+      "responses": [
+        "Different school wise hod are different.So be more clear with your school or department"
+      ]
+    },
+    {
+      "tokens": ["name", "principal"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["whatv", "principal", "name"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["principal", "name"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["college", "principal"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["principal", "office"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["principal"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["name", "principal"],
+      "tag": "principal",
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ]
+    },
+    {
+      "tokens": ["exam", "date"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["exam", "schedule"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["semester", "exam"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["semester", "exam", "timetable"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["sem"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["semester"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["exam"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["exam"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["exam", "timetable"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["exam", "date"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["semester"],
+      "tag": "sem",
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["process", "admission"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["admission", "process"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["take", "admission", "college"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["process", "admission"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["admission"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["admission", "process"],
+      "tag": "admission",
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "available"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "ce"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "mechanical"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "civil"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "chemical"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["available", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "computer", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "mechanical", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "civil", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship", "chemical", "engineering"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["list", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["comp", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["mechanical", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["civil", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["chemical", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["automobile", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["first", "year", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["second", "year", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["third", "year", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["fourth", "year", "scholarship"],
+      "tag": "scholarship",
+      "responses": [
+        "Many government scholarships are supported by our Website. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["facility", "college", "provide"],
+      "tag": "facilities",
+      "responses": [
+        "Our Website's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ]
+    },
+    {
+      "tokens": ["college", "facility"],
+      "tag": "facilities",
+      "responses": [
+        "Our Website's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ]
+    },
+    {
+      "tokens": ["college", "facility"],
+      "tag": "facilities",
+      "responses": [
+        "Our Website's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ]
+    },
+    {
+      "tokens": ["facility"],
+      "tag": "facilities",
+      "responses": [
+        "Our Website's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ]
+    },
+    {
+      "tokens": ["facility", "provided"],
+      "tag": "facilities",
+      "responses": [
+        "Our Website's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ]
+    },
+    {
+      "tokens": ["max", "number", "student"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["number", "seat", "per", "branch"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["number", "seat", "branch"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["maximum", "number", "seat"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["maximum", "student", "intake"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["college", "intake"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["many", "stundent", "taken", "branch"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["seat", "allotment"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["seat"],
+      "tag": "college intake",
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ]
+    },
+    {
+      "tokens": ["college", "dress", "code"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["college", "dresscode"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["wear", "casuals"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["doe", "college", "uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["wear", "uniform"],
+      "tag": "uniform",
+      "responses": ["ENTER YOUR OWN Website UNIFORM CIRCULER"]
+    },
+    {
+      "tokens": ["different", "committe", "college"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["different", "committee", "college"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["committee", "college"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["give", "committee", "detail"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["committee"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["many", "committee", "college"],
+      "tag": "committee",
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ]
+    },
+    {
+      "tokens": ["love"],
+      "tag": "random",
+      "responses": ["I am not program for this, please ask appropriate query"]
+    },
+    {
+      "tokens": ["marry"],
+      "tag": "random",
+      "responses": ["I am not program for this, please ask appropriate query"]
+    },
+    {
+      "tokens": ["love"],
+      "tag": "random",
+      "responses": ["I am not program for this, please ask appropriate query"]
+    },
+    {
+      "tokens": ["fuck"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["bitch"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["shut"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["hell"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["stupid"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["idiot"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["dumb"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["asshole"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["fucker"],
+      "tag": "swear",
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tokens": ["holiday"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["semester", "start"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["semester", "end"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["holiday"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["list", "holiday"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["holiday", "year"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["holiday", "list"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["vacation"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["holiday"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["vacation"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["holiday"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["long", "vacation"],
+      "tag": "vacation",
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ]
+    },
+    {
+      "tokens": ["sport", "game"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["give", "sport", "detail"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["sport", "infrastructure"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["sport", "facility"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["information", "sport"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["sport", "activity"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["please", "provide", "sport", "game", "information"],
+      "tag": "sports",
+      "responses": [
+        "Our Website encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ]
+    },
+    {
+      "tokens": ["okk"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["okie"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["nice", "work"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["well", "done"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["good", "job"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["thanks", "help"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["thank"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["ok"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["thanks"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["good", "work"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["k"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["ok"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": ["okay"],
+      "tag": "salutaion",
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ]
+    },
+    {
+      "tokens": [],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["thing"],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["thing"],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["u"],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["u", "help"],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["use"],
+      "tag": "task",
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ]
+    },
+    {
+      "tokens": ["ragging"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "practice", "active", "college"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["doe", "college", "antiragging", "facility"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "case"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "done"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["antiragging", "facility"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "junior"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "history"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["ragging", "incident"],
+      "tag": "ragging",
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+    },
+    {
+      "tokens": ["hod"],
+      "tag": "hod",
+      "responses": [
+        "HODs differ for each branch, please be more specific like: (HOD it)"
+      ]
+    },
+    {
+      "tokens": ["hod", "name"],
+      "tag": "hod",
+      "responses": [
+        "HODs differ for each branch, please be more specific like: (HOD it)"
+      ]
+    },
+    {
+      "tokens": ["hod"],
+      "tag": "hod",
+      "responses": [
+        "HODs differ for each branch, please be more specific like: (HOD it)"
       ]
     }
-  ]
+  ],
+  "lemmatizer": { "type": "WordNetLemmatizer" }
 }

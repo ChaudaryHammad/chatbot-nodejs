@@ -7,23 +7,24 @@ const fs = require('fs');
 const cors = require('cors');
 app.use(bodyParser.json());
 app.use(cors());
-const intentsPath = path.join(__dirname, 'intents.json');
+const intentsPath = path.join(__dirname, 'intents.json'); // Update the file name
 
 function getBotResponse(userMessage) {
-  // Add logic to match userMessage with intent patterns and generate a response
   const intents = JSON.parse(fs.readFileSync(intentsPath, 'utf-8'));
 
-  // Log the contents of intents.json
+  for (const item of intents.processed_data) {
+    const tokens = item.tokens;
+    const tag = item.tag;
+    const responses = item.responses;
 
+    // Check if userMessage contains any of the tokens
+    const match = tokens.some(token => userMessage.includes(token));
 
-  for (const intent of intents.intents) {
-    for (const pattern of intent.patterns) {
-      const regex = new RegExp(pattern, 'i');
-      if (regex.test(userMessage)) {
-        return intent.responses[Math.floor(Math.random() * intent.responses.length)];
-      }
+    if (match) {
+      return responses[Math.floor(Math.random() * responses.length)];
     }
   }
+
   return "I'm sorry, I didn't understand that.";
 }
 
